@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.bluesky.designdemo.MainActivity">
+
+    <Button
+        android:id="@+id/btn_textInputLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextInputLayout" />
+
+    <Button
+        android:id="@+id/btn_snackbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="snackBar" />
+
+    <Button
+        android:id="@+id/btn_navigationview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NavigationView" />
+
+    <Button
+        android:id="@+id/btn_floatActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FloatingActionButton" />
+
+    <Button
+        android:id="@+id/btn_collapsingtoolbarLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CollapsingToolbarLayout" />
+
+    <Button
+        android:id="@+id/btn_tabLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TabLayout" />
+</LinearLayout>

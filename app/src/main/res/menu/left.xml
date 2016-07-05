@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <group  android:checkableBehavior="single">
+       <item
+           android:id="@+id/menu1"
+           android:icon="@android:drawable/ic_menu_add"
+           android:title="子标题1"
+           android:checkable="true"></item>
+       <item
+           android:id="@+id/menu2"
+           android:icon="@android:drawable/ic_menu_camera"
+           android:title="子标题2"
+           android:checkable="true"></item>
+       <item
+           android:id="@+id/menu3"
+           android:icon="@android:drawable/ic_menu_search"
+           android:title="子标题3"
+           android:checkable="true"></item>
+
+   </group>
+   <item android:title="标题1" >
+        <menu >
+            <item
+                android:id="@+id/menu11"
+                android:icon="@android:drawable/ic_menu_add"
+                android:title="子标题11"
+                android:checkable="true"></item>
+            <item
+                android:id="@+id/menu22"
+                android:icon="@android:drawable/ic_menu_camera"
+                android:title="子标题22"
+                android:checkable="true"></item>
+            <item
+                android:id="@+id/menu33"
+                android:icon="@android:drawable/ic_menu_search"
+                android:title="子标题33"
+                android:checkable="true"></item>
+
+        </menu>
+    </item>
+    <!-- <item android:title="标题2">
+       <menu>
+           <item
+               android:id="@+id/menu4"
+               android:icon="@android:drawable/ic_menu_add"
+               android:title="子标题21"></item>
+           <item
+               android:id="@+id/menu5"
+               android:icon="@android:drawable/ic_menu_camera"
+               android:title="子标题22"></item>
+           <item
+               android:id="@+id/menu6"
+               android:icon="@android:drawable/ic_menu_search"
+               android:title="子标题32"></item>
+
+       </menu>
+   </item>-->
+</menu>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.bluesky.designdemo.NavigationViewActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigationview"
+        android:layout_width="260dp"
+        android:background="#00ff00"
+        app:menu="@menu/left"
+        app:itemTextColor="@drawable/navigation_textcolor"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"></android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>
